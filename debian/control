@@ -1,0 +1,22 @@
+Source: shinken-module-simple-log
+Section: net
+Priority: optional
+Maintainer: Shinken Debian packages maintainers <pkg-shinken-maint@lists.alioth.debian.org>
+Uploaders: Mathieu Parent <sathieu@debian.org>, Thibault Cohen <thibault.cohen@savoirfairelinux.com>
+Build-Depends: debhelper (>= 9), python
+Standards-Version: 3.9.5
+XS-Python-Version: >= 2.5, << 3.0
+Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-module-simple-log.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-module-simple-log.git;a=summary
+Homepage: http://shinken.io/package/simple-log
+
+Package: shinken-module-simple-log
+Architecture: any
+Depends: ${misc:Depends}, shinken-common
+Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
+Description: Shinken simple-log module
+ Module for saving all logs from Shinken daemons into one file
+ .
+ Shinken is a new, Nagios compatible monitoring tool, written in Python. The
+ main goal of Shinken is to allow users to have a fully flexible architecture
+ for their monitoring system that can easily scale to large environments.
