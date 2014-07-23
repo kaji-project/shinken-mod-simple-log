@@ -1,3 +1,9 @@
+shinken-module-simple-log (1.4-1kaji0.1) UNRELEASED; urgency=medium
+
+  * Kaji blank release
+
+ -- Matthieu Caneill <matthieu.caneill@savoirfairelinux.com>  Wed, 23 Jul 2014 09:38:37 -0400
+
 shinken-module-simple-log (1.4-1) unstable; urgency=medium
 
   * New upstream version 1.4
