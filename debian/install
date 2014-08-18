@@ -1,0 +1,3 @@
+module/* /usr/share/pyshared/shinken/modules/shinken-mod-simple-log
+README.md /usr/share/doc/shinken-mod-simple-log
+etc/* /etc/shinken
