@@ -1,4 +1,4 @@
-shinken-module-simple-log (1.4.1-1) unstable; urgency=medium
+shinken-mod-simple-log (1.4.1-1) unstable; urgency=medium
 
   [ Thibault Cohen ]
   * New upstream version 1.4.1
