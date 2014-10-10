@@ -1,4 +1,4 @@
-Source: shinken-module-simple-log
+Source: shinken-mod-simple-log
 Section: net
 Priority: optional
 Maintainer: Shinken Debian packages maintainers <pkg-shinken-maint@lists.alioth.debian.org>
@@ -6,14 +6,16 @@ Uploaders: Thibault Cohen <thibault.cohen@savoirfairelinux.com>, Mathieu Parent 
 Build-Depends: debhelper (>= 9), python
 Standards-Version: 3.9.5
 XS-Python-Version: >= 2.5, << 3.0
-Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-module-simple-log.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-module-simple-log.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-mod-simple-log.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-simple-log.git;a=summary
 Homepage: http://shinken.io/package/simple-log
 
-Package: shinken-module-simple-log
+Package: shinken-mod-simple-log
 Architecture: all
 Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
+Conflicts: shinken-module-simple-log
+Replaces: shinken-module-simple-log
 Description: Shinken simple-log module
  Module for saving all logs from Shinken daemons into one file
  .
