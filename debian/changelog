@@ -1,4 +1,10 @@
-shinken-mod-simple-log (1.4.1-1) unstable; urgency=medium
+shinken-mod-simple-log (1.4.1-2) unstable; urgency=medium
+
+  * Package renamed to follow current shinken convention
+
+ -- Mathieu Parent <sathieu@debian.org>  Tue, 21 Oct 2014 06:03:25 +0200
+
+shinken-module-simple-log (1.4.1-1) unstable; urgency=medium
 
   [ Thibault Cohen ]
   * New upstream version 1.4.1
